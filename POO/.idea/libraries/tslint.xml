@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tslint">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/tslint/lib/tslint.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

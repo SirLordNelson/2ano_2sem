@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javaee-appServers-jboss">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javaee-appServers-jboss/lib/javaee-appServers-jboss.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

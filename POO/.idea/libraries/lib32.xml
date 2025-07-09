@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib32">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/JavaEE/lib/javaee-platform.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/JavaEE/lib/javaee-rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/JavaEE/lib/javaee-openapi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/JavaEE/lib/jasper-v2-rt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

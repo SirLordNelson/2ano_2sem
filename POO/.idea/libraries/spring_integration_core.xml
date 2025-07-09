@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spring-integration-core">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/spring-integration-core/lib/spring-integration-core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="emojipicker">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/emojipicker/lib/emojipicker.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

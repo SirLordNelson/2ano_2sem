@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="java-pwa">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java-pwa/lib/java-pwa.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

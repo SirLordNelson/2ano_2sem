@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="intellij.javaFX">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javaFX/lib/modules/intellij.javaFX.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

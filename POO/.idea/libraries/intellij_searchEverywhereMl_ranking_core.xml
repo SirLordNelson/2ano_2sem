@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="intellij.searchEverywhereMl.ranking.core">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/searchEverywhereMl/lib/modules/intellij.searchEverywhereMl.ranking.core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

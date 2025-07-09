@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="textmate">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/textmate/lib/textmate.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

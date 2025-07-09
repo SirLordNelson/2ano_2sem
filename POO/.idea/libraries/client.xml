@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="client">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/client/cwm-plugin-frontend.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/client/cwm-guest-performanceTesting.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/client/cwm-guest-markdown.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/client/cwm-guest-driver.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/client/rd-client.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/client/cwm-guest-terminal.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/client/cwm-guest.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

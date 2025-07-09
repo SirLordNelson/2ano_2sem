@@ -1,0 +1,36 @@
+<component name="libraryTable">
+  <library name="lib11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/lib/lib-client.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/trove.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/external-system-rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/stats.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/forms_rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/product-client.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/jps-model.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/annotations.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/nio-fs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/externalProcess-rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/app-client.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/app.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/lib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/protobuf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/bouncy-castle.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/kotlinx-coroutines-slf4j-1.8.0-intellij.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/groovy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/util_rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/util.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/idea_rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/intellij-test-discovery.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/product.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/platform-loader.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/testFramework.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/opentelemetry.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/util-8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/jsch-agent.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/rd.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

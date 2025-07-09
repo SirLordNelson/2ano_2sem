@@ -1,0 +1,223 @@
+--
+-- Sistemas de Bases de Dados Relacionais
+-- Álgebra Relacional
+-- Folha de Exercícios
+-- Utilização da Ferramenta RelaX - Relational Algebra Calculator
+-- Ref. https://dbis-uibk.github.io/relax/landing
+--
+-- Base de Dados Exemplo
+-- Mercearia da Praça
+-- Belo, O., Nov. 2022
+
+-- Definição da base de dados
+-- Esquemas das tabelas e registos
+-- 
+
+-- Base de dados "mercearia"
+group: mercearia
+
+-- Tabela "cliente"
+cliente = {id nome genero localidade telefone
+1 ana_lemos f braga 897654321
+2 josefa_pires f santa_lucrecia 886454321
+3 carlos_pinho m raminhos 342654321
+4 jose_ramos m sao_joao_fonte 984354321
+5 francisco_raposo m taipas 765432134
+6 maria_fe_santa f francelos 876540923
+7 rosa_canto_prado f porto 989876765
+8 pedro_ramires m maia 264538270
+}
+-- Tabela "funcionario"
+funcionario = {id nome genero funcao responsavel
+1 joao_castro m gestor 0
+2 custodia_feliz f caixa 1
+3 joana_lima f caixa 1
+}
+-- Tabela "fornecedor"
+fornecedor = {id nome atividade
+1 celeiro_geral comercio_cereais
+2 lacto_paz producao_laticinios
+3 quinta_alada vegetais
+4 deposito_geral comercio_bebidas
+}
+-- Tabela "categoria"
+categoria = {id designacao
+1 cereais
+2 laticinios
+3 verduras
+4 bebidas
+}
+-- Tabela "artigo"
+artigo = {id descricao ref preco unidade categoria fornecedor
+c01 trigo t454sd 1.00 kg 1 1
+c02 centeio u0909i 1.20 kg 1 1
+c03 cevada 9890uy 0.90 kg 1 1
+c04 chicoria mjk546 1.50 kg 1 1
+l01 leite dfe231 0.80 lt 2 2
+l02 queijo lop987 3.80 lt 2 2
+l03 manteiga 98ikjd 2.20 lt 2 2
+l04 iogurte hyt564 0.40 lt 2 2
+v01 couves 009kjy 1.00 kg 3 3
+v02 navicas 989ku0 1.00 kg 3 3
+v03 espinafres 76ghtd 1.30 kg 3 3
+v04 alface xcd4sd 0.90 kg 3 3
+b01 agua a5fdjs7 0.20 un 4 4
+b02 cola cyh64sd 0.60 un 4 4
+b03 cerveja g5fre7 0.20 un 4 4
+b04 sumo s6tgrf 0.75 un 4 4
+}
+-- Tabela "venda"
+venda = {nr data funcionario cliente valor
+1 20221111 2 1 4.00
+2 20221112 2 2 3.20
+3 20221113 2 1 5.60
+4 20221114 3 2 1.70
+5 20221115 2 5 10.00
+6 20221116 2 4 5.20
+7 20221117 2 3 3.20
+8 20221118 3 6 14.80
+9 20221119 3 7 1.70
+10 20221120 2 8 4.20
+11 20221120 2 1 6.00
+12 20221121 2 8 6.80
+}
+-- Tabela "vendaproduto"
+vendaproduto = {venda produto quantidade preco valor
+1 c01 1 1.00 1.00
+1 b01 2 0.20 0.40
+1 b02 3 0.60 1.80
+1 l01 1 0.80 0.80
+2 c02 2 1.20 2.40
+2 l01 1 0.80 0.80
+3 c03 3 0.90 2.70
+3 v03 1 1.30 1.30
+3 l01 2 0.80 1.60
+4 v04 1 0.90 0.90
+4 b01 1 0.20 0.20
+4 b02 1 0.60 0.60
+5 c04 3 1.50 4.50
+5 v03 3 1.30 3.90
+5 l01 2 0.80 1.60
+6 v04 1 0.90 0.90
+6 b03 2 0.20 0.40
+6 l01 3 0.80 2.40
+6 b04 2 0.75 1.50
+7 b01 8 0.20 1.60
+7 l01 2 0.80 1.60
+8 b02 5 0.60 3.00
+8 v03 6 1.30 7.80
+8 l01 5 0.80 4.00
+9 v04 1 0.90 0.90
+9 l01 1 0.80 0.80
+10 b01 1 0.20 0.20
+10 b03 2 0.20 0.40
+10 b04 4 0.75 3.00
+10 b02 1 0.60 0.60
+11 l02 1 3.80 3.80
+11 v03 1 1.30 1.30
+11 v04 1 0.90 0.90
+12 b01 2 0.20 0.40
+12 b02 2 0.60 1.20
+12 v03 2 1.30 2.60
+12 v04 1 0.90 0.90
+12 b03 1 0.20 0.20
+12 b04 2 0.75 1.50
+}
+
+
+-- Exemplos de exercícios com expressões em Álgebra Relacional
+--
+-- Exemplo 1 
+-- Que vendas foram realizadas na mercearia.
+-- 
+venda
+-- SQL: select * from venda;
+
+-- Exemplo 2
+-- Em que datas os clientes '1' e '5' adquiriram produtos? 
+πdata (σ cliente =1 ∨ cliente=5 (venda))
+-- SQL: select distinct  data from venda where cliente = 1 or cliente =5;
+
+-- Exemplo 3
+-- Quais as funções dos funcionários da mercearia?
+-- 
+π id,nome,funcao (funcionario)
+-- SQL: select id, nome, funcao from funcionario;
+
+
+-- Exemplo 4 
+-- Quais os nomes dos funcionários que registaram vendas aos clientes '2', e '8'?
+-- 
+πnome ((σcliente = 2 ∨ cliente = 8 (venda)) ⨝funcionario=id funcionario)
+-- SQL: select distinct nome from funcionario inner join venda on id=funcionario where cliente = 2 or cliente = 8
+
+-- Exemplo 5 
+-- Qual é o nome do responsável do funcionário '3'?
+-- 
+πf1.id,f1.nome, f2.nome (ρ f1 (σid=3 funcionario) ⨝f1.responsavel=f2.id ρ f2 (funcionario))
+-- SQL: 
+
+-- Exemplo 6 
+-- Quais são os telefones dos clientes? 
+-- Apresentar uma lista ordenada por nome do cliente.
+-- 
+τnome (πnome, telefone (cliente))
+
+-- Exemplo 7 
+-- Quais foram os artigos que o cliente 'ana_lemos' adquiriu na mercearia?
+-- 
+πnome,produto ((σnome = 'ana_lemos' (cliente)) ⨝id=cliente (venda)⨝nr=venda (vendaproduto))
+
+-- Exemplo 8 
+-- Qual foi o valor das vendas realizadas pela mercearia?
+-- 
+γsum(valor)→total (venda)
+
+-- Exemplo 9 
+-- Qual o valor das compras realizadas pelos clientes '4' e '7'
+--
+γcliente; sum(valor)→total (σcliente = 4 ∨ cliente = 7 (venda))
+
+-- Exemplo 10
+-- Quais são artigos mais vendidos na mercearia?
+-- 
+τ quantidade desc (γproduto; sum(quantidade)→quantidade (vendaproduto))
+
+-- Exemplo 11
+-- Qual é o ranking dos clientes da mercearia em termos de valor pago de artigos?
+-- 
+τ valor desc (γcliente; sum(valor)→valor (venda))
+
+-- Exemplo 12
+-- Qual é o nome do fornecedor que forneceu o artigo mais vendido na mercearia? 
+-- (...)
+
+-- Exemplo 13
+-- Quais foram os produtos (nome, quantidade e venda) que foram vendidos no dia '20221114'? 
+-- Apresentar uma lista ordenada por nome do produto.
+τdescricao asc (πdescricao,quantidade,venda ((artigo)⨝id=produto (vendaproduto)⨝venda=nr (σdata=20221114 (venda))))
+
+SELECT DISTINCT descricao, quantidade, venda
+	FROM artigo INNER JOIN vendaproduto ON id=produto
+					INNER JOIN venda ON venda=nr
+	WHERE data=20221114
+	ORDER BY descricao asc
+
+SELECT DISTINCT descricao, quantidade, venda
+	FROM artigo, vendaproduto, venda 
+	WHERE venda=nr AND id=produto AND data=20221114
+	ORDER BY descricao asc
+
+-- Exemplo 14
+-- Quais foram os produtos que NÃO foram vendidos no dia '20221114'? 
+-- Apresentar uma lista ordenada por nome do produto.
+(πid, descricao (artigo)) - (πid, descricao ((artigo)⨝id=produto (vendaproduto)⨝venda=nr (σdata=20221114 (venda))))
+
+-- Exemplo 15
+-- Quais são as categorias dos produtos que foram vendidos aos clientes da localidade 'sao_joao_fonte'? 
+-- 
+πcategoria((artigo)⨝id=produto ((vendaproduto)⨝venda=nr (venda) ⨝cliente=id (σlocalidade='sao_joao_fonte'(cliente))))
+
+-- <Belo, O., 2022>
+-- fim 
+

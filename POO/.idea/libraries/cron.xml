@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cron">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cron/lib/cron.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

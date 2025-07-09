@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="microservices-ui">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/microservices-ui/lib/microservices-ui.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

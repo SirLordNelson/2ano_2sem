@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javaee-persistence-impl">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javaee-persistence-impl/lib/javaee-persistence-impl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,28 @@
+<component name="libraryTable">
+  <library name="lib14">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/ice4j.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/quiche-jna-stubs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/cwm-plugin-android.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/cwm-plugin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/rd.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/java-websocket.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/jstun.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/cwm-host-unattended.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/grpc-netty-shaded.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/tls-channel.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/vcs-protocol.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/bouncy-castle-pgp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/jnaerator-runtime.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/cwm-model.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/cwm-host.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/cwm-plugin-backend.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/cwm-unattended-common.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/cwm-common.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/cwm-plugin-common.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/cwm-plugin/lib/jitsi-utils.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

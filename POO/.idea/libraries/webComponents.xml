@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="webComponents">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/webComponents/lib/webComponents.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

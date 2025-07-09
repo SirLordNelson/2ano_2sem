@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="css-impl">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/css-impl/lib/css-impl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,197 @@
+--
+-- Sistemas de Bases de Dados Relacionais
+-- Álgebra Relacional
+-- Utilização da Ferramenta RelaX - Relational Algebra Calculator
+-- Ref. https://dbis-uibk.github.io/relax/landing
+--
+-- Base de Dados Exemplo
+-- Avaliação de alunos numa instituição de ensino
+-- Belo, O., Rev. 2022
+
+-- Definição da base de dados
+-- Esquemas das tabelas e registos
+-- 
+
+-- Base de dados "avaliacao"
+group: avaliacao
+
+-- Tabela "aluno"
+aluno = {nr nome genero localidade curso
+	1 ana f braga 1
+	2 carlos m vila_verde 2
+	3 joao m braga 2
+	4 francisca f barcelos 1
+	5 sonia f famalicao 1
+	6 pedro m guimaraes 1
+    7 rui m taipas 2
+    8 joana f prado 3
+    9 maria f povoa_lanhoso 3
+    10 ramiro m braga 2
+    11 sonia f guimaraes 1
+    12 helena f ponte_lima 1
+    13 paula f trofa 3
+    14 xavier m caminha 6
+    15 miguel m fafe 2
+    16 luis m braga 4
+    17 leonardo m braga 4
+    18 mariana f braga 6
+    19 luisa f braga 5
+    20 leopoldo m braga 4
+}
+
+-- Tabela "atleta"
+atleta = {aluno, modalidade, escalao
+	1 futsal 1
+	2 andebol 2
+	9 basquetebol 3
+	14 basquetebol 3
+	3 futsal 1
+	6 tenis 3
+	16 tenis 3
+	11 squash 2
+	4 atletismo 2 
+	18 pingpong 2 
+	20 paddle 2 
+}
+
+-- Tabela "curso"
+curso = {id designacao sigla grau duracao
+	1 mestrado_integrado_engenharia_informatica miei mestre 5
+	2 licenciatura_ciencias_computacao lcc licenciado 3
+	3 licenciatura_matematica lmat licenciado 3
+	4 mestrado_economia mec mestre 2
+	5 licenciatura_engenharia_biologica leb licenciado 3
+	6 mestrado_business_intelligence mbi mestre 2
+}
+
+-- Tabela "disciplina"
+disciplina = {id designacao responsavel
+	1 engenharia_software 1
+	2 engenharia_requisitos 2
+	3 programacao_web 3
+	4 programacao_funcional 1
+	5 sistemas_analiticos 1
+	6 bases_dados 1
+}
+
+-- Tabela "professor"
+professor = {id nome departamento
+	1 josefino_pedras sistemas_informacao
+	2 sofia_cantinho sistemas_informacao
+	3 carlos_reis matematica
+	4 paulo_amrtins economia
+	5 antonio_pascoal informatica
+	6 josefina_canto informatica
+	7 patricia_rodrigues sistemas_informacao
+	8 osvaldo_queiroz informatica
+}
+
+-- Tabela "notas"
+notas = {aluno disciplina nota data faltas
+    1 1 15 20200901 2
+    1 2 10 20200902 1
+    2 1 18 20200903 0
+    3 2 14 20200904 0
+    4 1 13 20200901 0
+    4 2 14 20200902 3
+    4 3 17 20200903 1
+    5 2 16 20200902 0
+    6 1 11 20200902 1
+	6 4 10 20200901 1
+	7 2 13 20200904 2
+	7 3 17 20200906 0
+	8 4 18 20200907 0
+	8 6 12 20200901 0
+	10 6 14 20200902 0
+	11 4 12 20200904 0
+	13 2 17 20200907 1
+	16 5 17 20200907 1
+}
+
+
+-- Exemplos de expressões em Álgebra Relacional
+--
+-- Exemplo 1  - Consulta de todos os registos de uma tabela.
+--
+(aluno)
+(disciplina)
+
+-- Exemplo 2 - Utilização da operação de seleção (σ).
+--
+σnr>3 (aluno)
+σid=1 (disciplina)
+
+-- Exemplo 3 
+--
+σnr≤3 ∧ curso=1 (aluno)
+
+-- Exemplo 4 - Utilização da operação de projeção (π).
+--
+πnome (aluno)
+
+-- Exemplo 5
+--
+πnome,curso (aluno)
+πcurso,nome,nr (aluno)
+
+-- Exemplo 6
+--
+πcurso (aluno)
+πnome, curso (σnr>3 (aluno))
+
+-- Exemplo 7 - Utilização da operação de junção interna (equi-junção) (⨝)
+--
+(aluno) ⨝curso=id (curso)
+πdesignacao((aluno) ⨝curso=id (curso))
+
+-- Exemplo 8
+--
+(σnr=1 (aluno)) ⨝curso=id (curso)
+
+-- Exemplo 9
+--
+πnome,designacao ((σnr=1 (aluno)) ⨝curso=id (curso))
+
+-- Exemplo 10
+--
+τnome asc (πnome,designacao ((σnr=1 (aluno)) ⨝curso=id (curso)))
+
+-- Exemplo 11 - Utilização da operação de produto cartesiano (x).
+--
+(aluno) x (curso)
+
+-- Exemplo 12 - Utilização da operação de união (∪).
+--
+σaluno=1 (notas) ∪ σaluno=3 (notas)
+σaluno=1 ∨ aluno=3 (notas)
+
+-- Exemplo 13 - Utilização da operação de interseção (∩).
+--
+(πdisciplina (σaluno=1 (notas)) ∩ πdisciplina (σaluno=2 (notas)))⨝disciplina=id (disciplina)
+
+-- Exemplo 15 - Utilização da operação de diferença (-).
+--
+πdesignacao, responsavel ((πid→nrdisciplina (disciplina) - πdisciplina (σaluno=1 (notas))) ⨝nrdisciplina=id (disciplina))
+
+-- Exemplo 16 - Utilização da operação de divisão (÷), com mudanças de nome de atributos (→).
+--
+πaluno ((notas) ÷ (πid→disciplina (σid=1∨id=2 (disciplina))))
+
+-- Exemplo 17 - Utilização da operação de ordenação (τ).
+--
+τdesignacao asc (πdesignacao,nome, nota ((aluno) ⨝nr=aluno (notas) ⨝disciplina=id (disciplina)))
+
+-- Exemplo 18 - Utilização da operação de agrupamento (γ).
+--
+γ nome; avg(nota)→media (πnome, nota ((aluno) ⨝nr=aluno (notas))) 
+
+-- Exemplo 19 - Utilização da operação de junção externa à esquerda (⟕)
+--
+πnr,nome,disciplina ((aluno) ⟕nr=aluno (notas))
+
+-- Exemplo 20 - Utilização da operação de junção externa à direita ()
+--
+σdisciplina=null (πnr,nome,disciplina ((aluno) ⟕nr=aluno (notas)))
+
+--
+-- fim 

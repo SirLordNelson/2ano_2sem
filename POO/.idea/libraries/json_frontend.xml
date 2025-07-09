@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="json-frontend">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/json/lib/client/json-frontend.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

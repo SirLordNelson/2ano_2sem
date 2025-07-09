@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="protoeditor">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/protoeditor/lib/protoeditor.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

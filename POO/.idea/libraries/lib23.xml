@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="lib23">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javascript-debugger/lib/nashorn-debugger-9-rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javascript-debugger/lib/nashorn-debugger-rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javascript-debugger/lib/ChromeConnector.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javascript-debugger/lib/FirefoxConnector.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javascript-debugger/lib/javascript-debugger.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

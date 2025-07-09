@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="java-compiler-charts-jps">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/jps/java-compiler-charts-jps.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

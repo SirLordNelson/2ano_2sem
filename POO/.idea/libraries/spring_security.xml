@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spring-security">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/spring-security/lib/spring-security.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

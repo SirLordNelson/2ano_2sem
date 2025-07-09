@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="lib20">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/hibernate/lib/hibernate4-console.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/hibernate/lib/hibernate5-console.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/hibernate/lib/hibernate3-console.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/hibernate/lib/hibernate52-console.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/hibernate/lib/hibernate.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/hibernate/lib/hibernate-console.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

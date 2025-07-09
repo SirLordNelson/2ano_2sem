@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="performanceTesting">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/performanceTesting/lib/performanceTesting.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jpa-model">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/JPA Model/lib/jpa-model.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="packageChecker">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/packageChecker/lib/packageChecker.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

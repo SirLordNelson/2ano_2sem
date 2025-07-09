@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tasks-timeTracking">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/tasks-timeTracking/lib/tasks-timeTracking.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

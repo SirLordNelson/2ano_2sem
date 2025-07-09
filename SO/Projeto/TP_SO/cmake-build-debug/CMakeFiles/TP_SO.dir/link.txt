@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/TP_SO.dir/src/document.c.o CMakeFiles/TP_SO.dir/src/dclient.c.o CMakeFiles/TP_SO.dir/src/dserver.c.o -o TP_SO 

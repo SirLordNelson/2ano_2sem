@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="yaml-frontend">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/yaml/lib/client/yaml-frontend.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

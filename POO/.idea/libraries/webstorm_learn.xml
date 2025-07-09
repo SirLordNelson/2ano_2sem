@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="webstorm-learn">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javascript-plugin/projectTemplates/learnProject/webstorm-learn.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

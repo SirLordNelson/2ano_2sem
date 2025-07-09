@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="modules2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/modules/intellij.java.structuralSearch.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/modules/intellij.java.vcs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/modules/intellij.java.featuresTrainer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/modules/intellij.java.unscramble.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/modules/intellij.jvm.analysis.impl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

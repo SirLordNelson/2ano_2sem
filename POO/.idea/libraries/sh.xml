@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sh">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/sh/lib/sh.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

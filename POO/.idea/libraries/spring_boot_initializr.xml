@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spring-boot-initializr">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/spring-boot-initializr/lib/spring-boot-initializr.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

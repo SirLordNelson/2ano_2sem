@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib26">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/grid-core-impl/lib/grid-core-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/grid-core-impl/lib/jdbc-console-types.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

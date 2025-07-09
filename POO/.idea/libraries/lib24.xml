@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="lib24">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/DatabaseTools/lib/aether-dependency-resolver.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/DatabaseTools/lib/database-openapi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/DatabaseTools/lib/maven-resolver-transport-http.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/DatabaseTools/lib/jdbc-console.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/DatabaseTools/lib/maven-resolver-transport-file.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/DatabaseTools/lib/database-plugin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/DatabaseTools/lib/maven-resolver-connector-basic.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

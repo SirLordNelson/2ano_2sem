@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="TypeScript">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javascript-plugin/projectTemplates/TypeScript/no_samples.zip!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javascript-plugin/projectTemplates/TypeScript/with_samples.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

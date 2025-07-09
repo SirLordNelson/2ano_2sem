@@ -1,0 +1,66 @@
+<component name="libraryTable">
+  <library name="modules">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.libraries.skiko.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.tips.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.smRunner.vcs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.execution.serviceView.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.kotlin.onboarding-promoter.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.execution.process.mediator.daemon.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.debugger.impl.backend.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.dap.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.profiler.ultimate.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.navbar.backend.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.smart.update.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.vcs.log.impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.navbar.frontend.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.libraries.grpc.netty.shaded.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.rpc.backend.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.profiler.ultimate.ideaAsyncProfiler.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.ide.newUiOnboarding.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.diagnostic.freezeAnalyzer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.collaborationTools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.libraries.ktor.client.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.ide.startup.importSettings.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.libraries.compose.desktop.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.execution.dashboard.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.execution.process.mediator.client.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.execution.process.mediator.common.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.profiler.common.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.lvcs.impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.coverage.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.coverage.agent.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.settings.local.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.jvm.dfa.analysis.ui.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.rml.dfa.impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.diagnostic.freezes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.xml.xmlbeans.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.libraries.microba.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.images.backend.svg.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.libraries.grpc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.idea.customization.base.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.navbar.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.images.copyright.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.vcs.dvcs.impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.compose.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.navbar.monolith.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.libraries.ktor.client.cio.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.registry.cloud.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.frontend.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.inline.completion.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.project.backend.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.debugger.impl.frontend.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.clouds.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.progress.backend.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.ide.newUsersOnboarding.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.kernel.backend.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.execution.process.elevation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.profiler.asyncOne.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.debugger.collections.visualizer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.settingsSync.core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/modules/intellij.platform.vcs.impl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

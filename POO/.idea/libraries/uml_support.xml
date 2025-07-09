@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="uml-support">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/uml/lib/uml-support.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

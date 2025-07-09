@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib30">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/ktor-starter/lib/ktor-gradle-tooling.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/ktor-starter/lib/ktor-starter.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

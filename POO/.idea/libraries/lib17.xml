@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib17">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/maven/lib/intellij.maven.server.indexer/lib/apache.maven.wagon.provider.api-3.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/maven/lib/intellij.maven.server.indexer/lib/apache.maven.core-3.8.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/maven/lib/intellij.maven.server.indexer/lib/apache.maven.archetype.catalog-no-trans-321.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/maven/lib/intellij.maven.server.indexer/lib/apache.maven.archetype.common-no-trans-3.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

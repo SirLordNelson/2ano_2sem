@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="android-gradle-declarative-lang-ide">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/android-gradle-declarative-lang-ide/lib/android-gradle-declarative-lang-ide.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

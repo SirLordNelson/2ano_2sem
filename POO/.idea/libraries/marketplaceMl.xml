@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="marketplaceMl">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/marketplaceMl/lib/marketplaceMl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javaee-beanValidation">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javaee-beanValidation/lib/javaee-beanValidation.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

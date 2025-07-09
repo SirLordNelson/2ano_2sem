@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="modules5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/fullLine/lib/modules/intellij.fullLine.rider.cpp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/fullLine/lib/modules/intellij.fullLine.go.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/fullLine/lib/modules/intellij.fullLine.html.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/fullLine/lib/modules/intellij.fullLine.rider.csharp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/fullLine/lib/modules/intellij.fullLine.kotlin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/fullLine/lib/modules/intellij.fullLine.js.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/fullLine/lib/modules/intellij.fullLine.terraform.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/fullLine/lib/modules/intellij.fullLine.php.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/fullLine/lib/modules/intellij.fullLine.ruby.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/fullLine/lib/modules/intellij.fullLine.java.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/fullLine/lib/modules/intellij.fullLine.python.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/fullLine/lib/modules/intellij.fullLine.css.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

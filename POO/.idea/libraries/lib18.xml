@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib18">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/gradle/lib/gradle-api-8.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/gradle/lib/gradle.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/gradle/lib/gradle-tooling-extension-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/gradle/lib/gradle-tooling-extension-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

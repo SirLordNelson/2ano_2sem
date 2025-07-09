@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="clouds-docker-impl">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/clouds-docker-impl/lib/clouds-docker-impl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

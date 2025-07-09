@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="intellij.javascript.debugger.nashorn">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javascript-debugger/lib/modules/intellij.javascript.debugger.nashorn.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="intellij.markdown.compose.preview">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/markdown/lib/modules/intellij.markdown.compose.preview.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gateway-plugin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/gateway-plugin/lib/gateway-plugin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javaee-web-impl">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javaee-web-impl/lib/javaee-web-impl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

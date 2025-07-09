@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="vcs-perforce">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/vcs-perforce/lib/vcs-perforce.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

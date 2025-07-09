@@ -1,0 +1,5 @@
+Para a optimização de modelos de redes, sugere-se a utilização do solver RELAX4.
+
+Este solver está disponível no Neos Server: https://neos-server.org/neos/solvers/lno:RELAX4/RELAX4.html
+
+Em alternativa, o ficheiro zip tem uma aplicação que corre em DOS e que pode ser instalada no pc (instruções no ficheiro anexo). 

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="platform-ijent-impl">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/platform-ijent-impl/lib/platform-ijent-impl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

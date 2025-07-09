@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javaee-cdi">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javaee-cdi/lib/javaee-cdi.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

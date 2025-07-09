@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tailwindcss">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/tailwindcss/lib/tailwindcss.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

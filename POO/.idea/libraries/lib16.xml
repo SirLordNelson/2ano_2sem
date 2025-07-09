@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib16">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javaFX/lib/javaFX-common.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javaFX/lib/javaFX-jps.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javaFX/lib/javaFX.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

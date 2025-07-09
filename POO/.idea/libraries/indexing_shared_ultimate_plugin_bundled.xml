@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="indexing-shared-ultimate-plugin-bundled">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/indexing-shared-ultimate-plugin-bundled/lib/indexing-shared-ultimate-plugin-bundled.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

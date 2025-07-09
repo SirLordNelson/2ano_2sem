@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="settingsSync">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/settingsSync/lib/settingsSync.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

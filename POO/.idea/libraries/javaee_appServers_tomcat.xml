@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javaee-appServers-tomcat">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javaee-appServers-tomcat/lib/javaee-appServers-tomcat.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

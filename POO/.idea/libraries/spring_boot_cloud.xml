@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spring-boot-cloud">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/spring-boot-cloud/lib/spring-boot-cloud.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

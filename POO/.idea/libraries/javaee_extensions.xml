@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javaee-extensions">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javaee-extensions/lib/javaee-extensions.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

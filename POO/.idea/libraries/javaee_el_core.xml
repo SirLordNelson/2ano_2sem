@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javaee-el-core">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javaee-el-core/lib/javaee-el-core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

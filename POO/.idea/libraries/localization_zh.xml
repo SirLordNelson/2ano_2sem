@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="localization-zh">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/localization-zh/lib/localization-zh.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

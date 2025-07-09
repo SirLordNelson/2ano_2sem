@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="rt3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/JavaEE/lib/rt/jasper-v23-rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/JavaEE/lib/rt/jasper-v23-java8-rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/JavaEE/lib/rt/jasper-v21-rt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

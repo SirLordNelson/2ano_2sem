@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="localization-ko">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/localization-ko/lib/localization-ko.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

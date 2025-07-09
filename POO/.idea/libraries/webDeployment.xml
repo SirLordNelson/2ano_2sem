@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="webDeployment">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/webDeployment/lib/webDeployment.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="prettierJS">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/prettierJS/lib/prettierJS.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

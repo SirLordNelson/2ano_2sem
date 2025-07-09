@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib31">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javaee-app-servers-impl/lib/javaee-app-servers-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javaee-app-servers-impl/lib/javaee-appServers-cloud-rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javaee-app-servers-impl/lib/AppServersView.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javaee-app-servers-impl/lib/javaee-appServers-rt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

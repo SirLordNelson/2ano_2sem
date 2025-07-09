@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/platform-langInjection/lib/java-langInjection-jps.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/platform-langInjection/lib/platform-langInjection.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

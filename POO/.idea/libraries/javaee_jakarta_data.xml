@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javaee-jakarta-data">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javaee-jakarta-data/lib/javaee-jakarta-data.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

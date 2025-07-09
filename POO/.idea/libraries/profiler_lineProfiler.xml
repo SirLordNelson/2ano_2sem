@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="profiler-lineProfiler">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/profiler-lineProfiler/lib/profiler-lineProfiler.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

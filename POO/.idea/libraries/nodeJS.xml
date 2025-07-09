@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="nodeJS">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/nodeJS/lib/nodeJS.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

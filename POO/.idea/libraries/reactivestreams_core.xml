@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="reactivestreams-core">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/reactivestreams-core/lib/reactivestreams-core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

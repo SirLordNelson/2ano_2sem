@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="toml">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/toml/lib/toml.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

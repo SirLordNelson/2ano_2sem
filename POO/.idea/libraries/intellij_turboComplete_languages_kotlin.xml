@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="intellij.turboComplete.languages.kotlin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/turboComplete/lib/modules/intellij.turboComplete.languages.kotlin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

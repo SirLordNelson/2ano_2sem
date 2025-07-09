@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javaee-jps">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/JavaEE/lib/jps/javaee-jps.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

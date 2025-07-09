@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javaee-jsp-base-impl">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javaee-jsp-base-impl/lib/javaee-jsp-base-impl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

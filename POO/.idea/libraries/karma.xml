@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="karma">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/karma/lib/karma.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

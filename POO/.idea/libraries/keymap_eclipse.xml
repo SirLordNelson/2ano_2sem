@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="keymap-eclipse">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/keymap-eclipse/lib/keymap-eclipse.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

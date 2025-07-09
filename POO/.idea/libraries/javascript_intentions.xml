@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javascript-intentions">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javascript-intentions/lib/javascript-intentions.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

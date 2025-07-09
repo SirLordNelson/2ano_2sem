@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="frontend">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/lib/frontend/frontend-customization.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/lib/frontend/frontend.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

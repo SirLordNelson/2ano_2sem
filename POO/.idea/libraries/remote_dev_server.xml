@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="remote-dev-server">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/remote-dev-server/lib/remote-dev-server.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

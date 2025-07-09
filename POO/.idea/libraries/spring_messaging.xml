@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spring-messaging">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/spring-messaging/lib/spring-messaging.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

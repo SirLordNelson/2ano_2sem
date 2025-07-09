@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib29">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/eclipse/lib/eclipse-common.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/eclipse/lib/eclipse-jps.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/eclipse/lib/eclipse.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

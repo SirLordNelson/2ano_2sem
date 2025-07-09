@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="lib21">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/java-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/maven-resolver-transport-file.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/jetbrains.kotlinx.metadata.jvm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/jgoodies-common.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/jps-builders-6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/sa-jdwp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/javac2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/java-frontback.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/jshell-protocol.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/jps-builders.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/maven-resolver-transport-http.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/aether-dependency-resolver.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/jshell-frontend.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/jps-launcher.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/jps-javac-extension.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/maven-resolver-connector-basic.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/debugger-memory-agent.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java/lib/jb-jdi.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

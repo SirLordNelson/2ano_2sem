@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib28">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javaee-jax-rs/lib/javaee-jax-ws-rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/idea/plugins/javaee-jax-rs/lib/javaee-jax-rs.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

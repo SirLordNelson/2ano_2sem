@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spring-data">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/spring-data/lib/spring-data.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

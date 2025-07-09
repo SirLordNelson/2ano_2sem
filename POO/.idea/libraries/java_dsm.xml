@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="java-dsm">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/java-dsm/lib/java-dsm.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

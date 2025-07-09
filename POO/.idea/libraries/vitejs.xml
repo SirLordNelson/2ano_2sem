@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="vitejs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/vitejs/lib/vitejs.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

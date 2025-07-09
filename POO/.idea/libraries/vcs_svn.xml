@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="vcs-svn">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/vcs-svn/lib/vcs-svn.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

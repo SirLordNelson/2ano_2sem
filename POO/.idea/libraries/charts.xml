@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="charts">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/charts/lib/charts.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

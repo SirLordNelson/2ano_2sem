@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ml-inline-completion">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/ml-inline-completion/lib/ml-inline-completion.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

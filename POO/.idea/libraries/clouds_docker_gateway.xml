@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="clouds-docker-gateway">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/idea/plugins/clouds-docker-gateway/lib/clouds-docker-gateway.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
