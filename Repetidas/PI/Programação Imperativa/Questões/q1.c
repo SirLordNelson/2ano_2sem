@@ -43,7 +43,6 @@ char *strcpy(char *dest, char source[]){
 }
 
 //Ex9
-//fui ver correção
 int strcmp(char s1[], char s2[]){
     int i;
     for (i = 0; s1[i] == s2[i] && s1[i]; i++);
@@ -51,7 +50,6 @@ int strcmp(char s1[], char s2[]){
 }
 
 //Ex10
-//o que se quer é um apontador, não a posição exatamente
 char *strstr(char s1[], char s2[]){
     int i = 0;
     for(; s1[i] && s2[0] != s1[i]; i++);
@@ -93,7 +91,6 @@ void strrev(char s[]){
 }
 
 //Ex12
-//utilizar o w
 void strnoV(char s[]){
     int w = 0;
     for(int i=0; s[i]; i++){
@@ -103,7 +100,6 @@ void strnoV(char s[]){
 }
 
 //Ex13
-//Deepseek adicionou o j, facilita no else
 void truncW(char t[], int n){
     int m = 0;
     int j = 0;
@@ -120,7 +116,6 @@ void truncW(char t[], int n){
 }
 
 //Ex14
-//Deepseek colocou caso de não existir e colocou o if fora do 2 ciclo
 char charMaisfreq(char s[]){
     if (s[0] == '\0')return 0;
     int maior = 0;
@@ -139,7 +134,6 @@ char charMaisfreq(char s[]){
 }
 
 //Ex15
-//Deepseek colocou o 2º if no else
 int iguaisConsecutivos(char s[]){
     int m = 0;
     int maior = 0;
@@ -175,7 +169,6 @@ int maiorPrefixo(char s1 [], char s2 []){
 }
 
 //Ex18
-//fui ver o while
 int maiorSufixo(char s1 [], char s2 []){
     int i = 0;
     int j = 0;
@@ -189,7 +182,6 @@ int maiorSufixo(char s1 [], char s2 []){
 }
 
 //Ex19
-//fui ver o else
 int sufPref(char s1[], char s2[]){
     int m = 0;
     int j = 0;
@@ -201,7 +193,6 @@ int sufPref(char s1[], char s2[]){
 }
 
 //Ex20
-//esqueci-me do 2º if
 int contaPal(char s[]){
     int t = 0;
     for(int i = 0; s[i]; i++){
@@ -224,7 +215,6 @@ int contida(char a[], char b[]){
 }
 
 //Ex23
-//Deepseek adicionou o i--
 int palindorome (char s[]){
     int i = strlen(s) - 1;
     int c = 1;
@@ -235,7 +225,6 @@ int palindorome (char s[]){
 }
 
 //Ex26
-//feito pelo Deepseek
 void insere(int v[], int N, int x){
     int i = N - 1;
     while(i >= 0 && v[i] > x){
@@ -255,7 +244,6 @@ int retiraNeg(int v[], int N){
 }
 
 //Ex30
-//Deepseek corrigiu t inicial e retirou um ciclo (aumentou a eficiência)
 int menosFreq (int v[], int N){
     int m = 0;
     int maior = N;
@@ -275,7 +263,6 @@ int menosFreq (int v[], int N){
 }
 
 //Ex32
-//foi adicionado o último else
 int maxCresc(int v[], int N){
     int m = 0;
     int max = 0;
@@ -290,7 +277,6 @@ int maxCresc(int v[], int N){
 }
 
 //Ex33
-//corrigiu o argumento do m++
 int elimRep(int v[], int n){
     int w = 0;
     int m = 0;
@@ -351,7 +337,6 @@ void somasAc(int v[], int Ac [], int N){
 }
 
 //Ex39
-//fui ver como se fazia
 int triSup(int N, float m [N][N]){
     int x = 1;
     for(int i = 1; i < N && x; i++){
@@ -368,7 +353,6 @@ typedef struct posicao {
     int x, y;
 } Posicao;
 
-//fui ver como se fazia
 int caminho(Posicao inicial, Posicao final, Movimento mov[], int N){
     int nmovX = final.x - inicial.x; // Número de movimentos horizontais necessários
     int nmovY = final.y - inicial.y; // Número de movimentos verticais necessários
