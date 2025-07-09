@@ -7,7 +7,6 @@ typedef struct lligada {
 } *LInt;
 
 //Ex1
-//fiz sozinho
 int length (LInt l){
     int r = 0;
     while(l->prox != NULL){
@@ -17,7 +16,6 @@ int length (LInt l){
 }
 
 //Ex2
-//copiei a linha 27
 void freeL (LInt a){
     LInt next;
     while(a){
@@ -29,7 +27,6 @@ void freeL (LInt a){
 }
 
 //Ex3
-//fiz sozinho
 void imprimeL (LInt a){
     while(a){
         printf("%d\n", a->valor);
@@ -38,7 +35,6 @@ void imprimeL (LInt a){
 }
 
 //Ex4
-//feita pelo Deepseek
 LInt reverseL (LInt l){
     LInt prev = NULL;
     while (l != NULL) {
@@ -51,12 +47,11 @@ LInt reverseL (LInt l){
 }
 
 //Ex5
-//aprimorada pelo Deepseek
 void insertOrd(LInt *l, int a) {
     LInt novo = malloc(sizeof(struct lligada));
     novo->valor = a;
-    novo->prox = NULL; //faltou isto
-    if (*l == NULL || (*l)->valor >= a) { //faltou este if
+    novo->prox = NULL;
+    if (*l == NULL || (*l)->valor >= a) {
         novo->prox = *l;
         *l = novo;
     }else{
@@ -64,18 +59,16 @@ void insertOrd(LInt *l, int a) {
         while (atual->prox != NULL && atual->prox->valor < a) {
             atual = atual->prox;
         }
-        // parte aprimorada
         novo->prox = atual->prox;
         atual->prox = novo;
     }
 }
 
 //Ex6
-//aprimorada pelo Deepseek
 int removeOneOrd(LInt *l, int a) {
     if (*l == NULL) return 1; //se for vazia
     LInt atual = *l;
-    LInt anterior = NULL; //dá mais jeito se for anterior ao invés de next
+    LInt anterior = NULL;
     while (atual != NULL && atual->valor < a) {
         anterior = atual;
         atual = atual->prox;
@@ -89,14 +82,13 @@ int removeOneOrd(LInt *l, int a) {
 }
 
 //Ex7
-//fiz com ajuda
 void merge (LInt *r, LInt a, LInt b){
     LInt l = *r;
     if(!a) l = b;
     else if(!b) l = a;
     else if(a->valor < b->valor){
         l = a;
-        merge(l->prox, a->prox, b); //usar recursividade
+        merge(l->prox, a->prox, b);
     }
     else{
         l = b;
@@ -105,13 +97,12 @@ void merge (LInt *r, LInt a, LInt b){
 }
 
 //Ex8
-//fiz sozinho, mas com alguma ajuda
 void splitQS (LInt l, int x, LInt *mx, LInt *Mx){
     if(l){
         if(l->valor < x){
             *mx = malloc(sizeof(struct lligada));
-            (*mx)->valor = l->valor; //ia-me esquecendo desta parte... ATENTO!!!
-            splitQS(l->prox, x, &(*mx)->prox, *Mx); //faltou-me o &
+            (*mx)->valor = l->valor;
+            splitQS(l->prox, x, &(*mx)->prox, *Mx);
         }else{
             *Mx = malloc(sizeof(struct lligada));
             (*Mx)->valor = l->valor;
@@ -121,7 +112,6 @@ void splitQS (LInt l, int x, LInt *mx, LInt *Mx){
 }
 
 //Ex9
-//não tinha percebido bem o exercício
 LInt parteAmeio (LInt *l){
     int d = length(*l);
     if(d == 0) return NULL;
@@ -136,13 +126,12 @@ LInt parteAmeio (LInt *l){
 }
 
 //Ex10
-//fiz sozinho, mas com alguma ajuda
 int removeAll (LInt *l, int a){
     int rem = 0;
     LInt prev = NULL;
     while(*l){
         if((*l)->valor == a){
-            if(!prev) *l = (*l)->prox; //melhorar entendimento destes exercícios com apontadores
+            if(!prev) *l = (*l)->prox;
             else prev->prox = (*l)->prox;
             rem++;
         }else{
@@ -153,7 +142,6 @@ int removeAll (LInt *l, int a){
 }
 
 //Ex11
-//fiz sozinho com ajuda do Deepseek
 int removeDups (LInt *l){
     int rem = 0;
     LInt a = *l;
@@ -162,11 +150,11 @@ int removeDups (LInt *l){
         LInt prevaux = a;
         while(aux != NULL){
             if(a->valor == aux->valor){
-                prevaux->prox = aux->prox; //adicionou ->prox no prevaux
+                prevaux->prox = aux->prox;
                 free(aux);
-                aux = prevaux->prox; //adicionou esta linha
+                aux = prevaux->prox;
                 rem++;
-            }else{ //adicionou esta parte
+            }else{
                 prevaux = aux;
                 aux = aux->prox;
             }
@@ -176,13 +164,12 @@ int removeDups (LInt *l){
 }
 
 //Ex12
-//fiz sozinho com ajuda do Deepseek
 int removeMaiorL (LInt *a){
-    if (*a == NULL) return -1; //adicionada
+    if (*a == NULL) return -1;
 
     LInt l = *a;
-    int maior = l->valor; //deu valor
-    LInt mega = l; //deu valor
+    int maior = l->valor;
+    LInt mega = l;
     LInt prevmega = NULL;
     while(l->prox != NULL){
         if((l->prox)->valor > maior){
@@ -192,18 +179,17 @@ int removeMaiorL (LInt *a){
         }
         l = l->prox;
     }
-    if(prevmega == NULL) *a = mega->prox; //adicionada
-    else prevmega->prox = mega->prox; //adicionada
+    if(prevmega == NULL) *a = mega->prox;
+    else prevmega->prox = mega->prox;
     free(mega);
     return maior;
 }
 
 //Ex13
-//fiz com ajuda da Sofia
 void init (LInt *l) {
     LInt prev = NULL;
-    for(;(*l)->prox; prev = *l, l = &((*l)->prox)); //aprimorada
-    if(!prev) { //adicionada
+    for(;(*l)->prox; prev = *l, l = &((*l)->prox));
+    if(!prev) {
         free(*l);
         *l = NULL;
     }
@@ -214,43 +200,39 @@ void init (LInt *l) {
 }
 
 //Ex14
-//fiz sozinho com ajuda da Sofia
 void appendL (LInt *a, int x){
     for(; (*a)->prox; *a = &((*a)->prox));
     LInt l = malloc(sizeof(struct lligada));
     l->valor = x;
     l->prox = NULL;
-    if(!(*a)) (*a) = l; //adicionada
+    if(!(*a)) (*a) = l;
     (*a)->prox = l;
 }
 
 //Ex15
-//fiz sozinho com ajuda do jteixeira
 void concatL (LInt *a, LInt b){
-    if(*a){ //if adicionado
+    if(*a){
         for(; (*a)->prox; *a = &((*a)->prox));
         (*a)->prox = b;
-    }else *a = b; //else adicionado
+    }else *a = b;
 }
 
 //Ex16
-//fiz sozinho com ajuda da Sofia
 LInt cloneL (LInt a){
-    if(!a) return NULL; //adicionada
+    if(!a) return NULL;
     LInt l = malloc(sizeof(struct lligada));
     l->valor = a->valor;
-    l->prox = cloneL(a->prox); //aprimorada
+    l->prox = cloneL(a->prox);
     return l;
 }
 
 //Ex17
-//copiei da Sofia
 LInt cloneRev2 (LInt l){
     LInt list = NULL;
     while(l){
         LInt new = malloc(sizeof(struct lligada));
         new->valor = l->valor;
-        new->prox = list; //parte mais importante!!!
+        new->prox = list;
         list = new;
         l = l->prox;
     }
@@ -258,10 +240,9 @@ LInt cloneRev2 (LInt l){
 }
 
 //Ex18
-//fiz sozinho
 int maximo (LInt l){
     int maior = l->valor;
-    while(l != NULL){ //aprimorada pelo Deepseek
+    while(l != NULL){
         if(l->valor > maior) maior = l->valor;
         l = l->prox;
     }
@@ -269,8 +250,6 @@ int maximo (LInt l){
 }
 
 //Ex19
-//copiei da Sofia
-//compliquei demasiado nesta
 int take (int n, LInt *l){
     int i = 0;
     for(;i < n && *l; i++, l = &((*l)->prox));
@@ -286,7 +265,7 @@ int take (int n, LInt *l){
 //Ex20
 int drop (int n, LInt *l){
     int i = 0;
-    for(; i < n && *l; i++, *l = (*l)->prox){ //Deepseek retirou o & antes do (*l)->prox
+    for(; i < n && *l; i++, *l = (*l)->prox){
         LInt temp = (*l)->prox;
         free(*l);
         *l = temp;
@@ -295,16 +274,14 @@ int drop (int n, LInt *l){
 }
 
 //Ex21
-//fiz sozinho
 LInt Nforward (LInt l, int N){
-    for(int i = 0; i < N; i++){ //otimização temporal do Deepseek
+    for(int i = 0; i < N; i++){
         l = l->prox;
     }
     return l;
 }
 
 //Ex22
-//fiz sozinho, com algumas otimizações da Sofia
 int listToArray (LInt l, int v[], int N){
     int i = 0;
     for(; i < N && l; l = l->prox){
@@ -314,8 +291,7 @@ int listToArray (LInt l, int v[], int N){
 }
 
 //Ex23
-//fiz sozinho com inspiração da Sofia
-LInt arrayToList (int v[], int N){ //recursivamente dá mais jeito
+LInt arrayToList (int v[], int N){
     if(N == 0) return NULL;
     LInt l = malloc(sizeof(struct lligada));
     l->valor = (*v);
@@ -324,21 +300,20 @@ LInt arrayToList (int v[], int N){ //recursivamente dá mais jeito
 }
 
 //Ex24
-//fiz sozinho com ajuda da Sofia e do Deepseek
 LInt somasAcL (LInt l){
-    if (l == NULL) return NULL; //adicionado pelo Deepseek
+    if (l == NULL) return NULL;
     int m = 0;
-    LInt prev = NULL; //prev não é um nó, mas um ponteiro que sempre referencia o último nó adicionado
+    LInt prev = NULL;
     LInt list = NULL;
-    for(; l; l = l->prox){ //ciclo ajuda mais
+    for(; l; l = l->prox){
         m = m + l->valor;
         LInt new = malloc(sizeof(struct lligada));
         new->valor = m;
         new->prox = NULL;
-        if(!list){ //adicionado pela Sofia
-            list = new; //list é preenchido apenas uma vez (com o primeiro new)
+        if(!list){
+            list = new;
             prev = new;
-        }else{ //adicionado pela Sofia
+        }else{
             //Depois, prev redireciona o final da lista (prev->prox) para o novo nó e atualiza seu próprio valor para new
             //A lista cresce porque prev liga cada new ao último nó existente, enquanto list mantém a referência do início
             prev->prox = new;
@@ -349,20 +324,18 @@ LInt somasAcL (LInt l){
 }
 
 //Ex25
-//fiz sozinho com ajuda da Sofia
 void remreps (LInt l){
     if(l){
         while(l->prox){
             if(l->valor == (l->prox)->valor){
                 l->prox = (l->prox)->prox;
-                free(l->prox); //estava mal colocado
+                free(l->prox);
             }else l = l->prox;
         }
     }
 }
 
 //Ex26
-//copiei da Sofia
 LInt rotateL (LInt l){
     if(!l || !(l->prox)) return l;
     LInt temp = l;
@@ -374,7 +347,6 @@ LInt rotateL (LInt l){
 }
 
 //Ex27
-//não li bem o enunciado
 LInt parte(LInt l) {
     if(!l || !l->prox) return NULL;
     LInt newL = l->prox;
@@ -390,14 +362,12 @@ typedef struct nodo {
 } *ABin;
 
 //Ex28
-//copiei da Sofia pq não me lembrava como se faziam máscaras
 int altura(ABin tree){
     if(tree == NULL) return 0;
     return 1 + (altura(tree->esq) > altura(tree->dir) ? altura(tree->esq) : altura(tree->dir));
 }
 
 //Ex29
-//fiz sozinho
 ABin cloneAB (ABin tree){
     if(!tree) return NULL;
 
@@ -409,14 +379,13 @@ ABin cloneAB (ABin tree){
 }
 
 //Ex30
-//fiz sozinho com ajuda do jteixeira
 void mirror (ABin *tree){
     ABin temp;
     if(*tree){
         temp = (*tree)->dir;
         (*tree)->dir = (*tree)->esq;
         (*tree)->esq = temp;
-        mirror(&(*tree)->esq); //não sabia como colocar aqui
+        mirror(&(*tree)->esq);
         mirror(&(*tree)->dir);
     }
 }
@@ -464,7 +433,6 @@ void posorder(ABin a, LInt *l){
 }
 
 //Ex34
-//feita pelo Deepseek
 int depth (ABin a, int x){
     if(!a) return -1;
     if(a->valor == x) return 1;
@@ -472,7 +440,6 @@ int depth (ABin a, int x){
     int esq = depth(a->esq, x);
     int dir = depth(a->dir, x);
     
-    //parte adicionada
     if(esq == -1 && dir == -1) return -1;
     if(esq == -1) return dir + 1;
     if(dir == -1) return esq + 1;
@@ -481,7 +448,6 @@ int depth (ABin a, int x){
 }
 
 //Ex35
-//fiz sozinho com ajuda do Deepseek
 int freeAB (ABin a){
     if(!a) return 0;
 
@@ -491,11 +457,10 @@ int freeAB (ABin a){
 }
 
 //Ex36
-//fiz sozinho com ajuda do Deepseek
 int pruneAB (ABin *a, int l){
     if(!(*a)) return 0;
 
-    if(l == 0){ //parte aprimorada
+    if(l == 0){
         int r = freeAB(*a);
         *a = NULL;
         return r;
@@ -505,7 +470,6 @@ int pruneAB (ABin *a, int l){
 }
 
 //Ex37
-//fiz sozinho
 int iguaisAB (ABin a, ABin b){
     if(!a && b || a && !b) return 0;
     if(!a && !b || a && b) return 1;
@@ -513,7 +477,6 @@ int iguaisAB (ABin a, ABin b){
 }
 
 //Ex38
-//copiei da Sofia pq não tinha percebido bem o que era para fazer
 LInt concat(LInt a, LInt b){
     if(!a) return b;
     LInt temp = a;
@@ -534,13 +497,12 @@ LInt nivelL (ABin a, int n){
 }
 
 //Ex39
-//fiz sozinho com ajuda da Sofia
 int nivelV (ABin a, int n, int v[]){
     if(!a || n < 1) return 0;
     if(n == 1){
         (*v) = a->valor;
         return 1;
-    }else{ //aprimorado pela Sofia
+    }else{
         int e = nivelV(a->esq, n-1, v);
         int d = nivelV(a->dir, n-1, v + e);
         return e + d;
@@ -548,34 +510,31 @@ int nivelV (ABin a, int n, int v[]){
 }
 
 //Ex40
-//fiz sozinho com ajuda do jteixeira
 int dumpAbin (ABin a, int v[], int N){
     if(!a || N <= 0) return 0;
 
     int r = dumpAbin(a->esq, v, N);
     v[r] = a->valor;
-    ++r; //parte adicionada
+    ++r;
     r += dumpAbin(a->dir, v + r, N - r);
     return r;
 }
 
 //Ex41
-//fiz sozinho com ajuda da Sofia
 ABin somasAcA (ABin a){
     if(!a) return NULL;
 
     ABin t = malloc(sizeof(struct nodo));
     t->esq = somasAcA(a->esq);
     t->dir = somasAcA(a->dir);
-    t->valor = a->valor + (t->esq ? t->esq->valor : 0) + (t->dir ? t->dir->valor : 0); //copiei da Sofia
+    t->valor = a->valor + (t->esq ? t->esq->valor : 0) + (t->dir ? t->dir->valor : 0);
     return t;
 }
 
 //Ex42
-//fiz sozinho com ajuda do Deepseek
 int contaFolhas(ABin a){
     if (!a) return 0;
     if (!a->esq && !a->dir) return 1;
     
-    return contaFolhas(a->esq) + contaFolhas(a->dir); //Deepseek simplificou
+    return contaFolhas(a->esq) + contaFolhas(a->dir);
 }
